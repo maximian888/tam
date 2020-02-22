@@ -1,7 +1,7 @@
 # tam
-min tam server
+minimum tam server
 
-###Setup||Installation
+### Setup||Installation
 
 ```ssh 
 git clone https://github.com/mexxwill/tam
@@ -9,7 +9,7 @@ npm install
 nodejs index.js
 ```
 
-###Create Keys
+### Create Keys
 
 ```ssh
 openssl genrsa -out rsa.private 4096
@@ -21,12 +21,14 @@ ssh-keygen -t rsa -b 4096 -m PEM -f jwtRS256.key
 openssl rsa -in jwtRS256.key -pubout -outform PEM -out jwtRS256.key.pub
 ```
 
-###Description
+### Description
 
 Access running tam-server with curl localhost:7777 or curl localhost:7777/tam - depending on which format you want to access the jws.
 
-###TEEP
-https://siot-hackathon.github.io/slides/teep01.pdf
-https://siot-hackathon.github.io/slides/teep02.pdf
+### TEEP
 
-https://tools.ietf.org/html/draft-ietf-teep-opentrustprotocol-03
+| Document | Link |
+| ------ | ------ |
+|Introduction|https://siot-hackathon.github.io/slides/teep01.pdf|
+|OpenEnclaveSDK|https://siot-hackathon.github.io/slides/teep02.pdf|
+|TEEP Draft|https://tools.ietf.org/html/draft-ietf-teep-opentrustprotocol-03|
