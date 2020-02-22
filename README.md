@@ -6,7 +6,7 @@ minimum tam server
 ```ssh 
 git clone https://github.com/mexxwill/tam
 npm install
-nodejs index.js
+nodejs index.js (on windows node index.js)
 ```
 
 ### Create Keys
